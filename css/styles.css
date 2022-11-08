@@ -281,7 +281,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .list-footer-contact .footer-contact-item:not(:last-child) {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-communication {
