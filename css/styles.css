@@ -26,6 +26,7 @@ ul {
 
 .header {
     background: #ffffff;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .container {
@@ -33,12 +34,13 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
 }
 
 .header-container {
     display: flex;
     align-items: center;
+    border-bottom: 1px #ECECEC;
 }
 
 .header-logo {
@@ -151,13 +153,17 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
+    /*  */
     letter-spacing: 0.03em;
+}
+
+.title-center {
+    text-align: center;
 }
 
 .benefits {
     background: #FFFFFF;
-    margin-top: 94px;
+    padding-top: 94px;
 }
 
 .benefits-list {
@@ -174,6 +180,7 @@ h2 {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .benefits-text {   
@@ -185,8 +192,8 @@ h2 {
 
 .industry {
     background: #FFFFFF;
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .industry-list {
     display: flex;
@@ -224,6 +231,7 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 30px;
 }
 
 .speciality-member-team {
@@ -232,6 +240,8 @@ border-radius: 0px 0px 4px 4px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color-secondary);
+    margin-top: 10px;
+    padding-bottom: 30px;
 }
 
 /* Футер */
@@ -324,27 +334,31 @@ border-radius: 4px;
 .project-list {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 94px;
 }
 
 .project-list a {
-    text-decoration: none;
-    margin: -15px;
+    text-decoration: none;    
 }
 
 .project-item {
-    width: 370;
-    margin: 15px;
-    /* margin-bottom: 30px; */
-    border: 1px solid #EEEEEE;
+    /* width: 370; */
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #EEEEEE;    
 }
 
-/* .project-item:nth-child(3n) {
+.project-item:nth-child(3n) {
     margin-right: 0;
 }
 
-.project-item:nth-last-child(-n+3) {
+.project-item:nth-last-child(-n + 3) {
     margin-bottom: 0;
-} */
+}
+
+.project-text {
+    margin: 20px 24px;    
+}
 
 .project-title {    
     font-size: 18px;
