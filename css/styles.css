@@ -302,6 +302,7 @@ border-radius: 0px 0px 4px 4px;
 .portfolio {
     background: #FFFFFF;
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* Фільтр проєктів */
@@ -329,9 +330,8 @@ border-radius: 4px;
 }
 
 .filter-projects {
-    display: flex;
-    
-    padding-bottom: 34px;
+    display: flex;    
+    margin-bottom: 34px;
     justify-content: center;
 }
 
@@ -345,7 +345,6 @@ border-radius: 4px;
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
 }
 
 .project-list a {
